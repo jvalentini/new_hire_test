@@ -37,9 +37,3 @@ end
 
 repo = RepoGateway.new opts
 repo.create_issue(opts.title)
-
-# github = Github::Issues.new login: opts.username, password: "", user: 'jvalentini', repo: 'new_hire_test'
-# github.create title: "New bug", body: "Bug description goes here"
-
-# bitbucket = BitBucket.new login: opts.username, password: ""
-# bitbucket.issues.create "jvalentini", "new_hire_test", title: "New bug"
